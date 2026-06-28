@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ts-core-framework",
+  "version": "1.0.0",
+  "description": "A production-grade E2E test automation framework built with Playwright and TypeScript utilizing the Page Object Model.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engine-qa-infra/playwright-ts-core-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/engine-qa-infra/playwright-ts-core-framework/issues"
+  },
+  "homepage": "https://github.com/engine-qa-infra/playwright-ts-core-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
