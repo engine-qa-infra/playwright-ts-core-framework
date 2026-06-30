@@ -43,6 +43,10 @@ export class InventoryPage {
 
     return titles;
   }
+  async addItemToCartByIndex(index: number = 0): Promise<void> {
+  // Finds the "Add to cart" button inside a specific item card
+  await this.itemCards.nth(index).locator('button:has-text("Add to cart")').click();
+  }
 }
 
 export default InventoryPage;
